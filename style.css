@@ -132,68 +132,35 @@ table {
 
 /**********FIN RESET**********/
 
-/*********
-  <!--<style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>-->
-*************/
-
 body {
   font-size: 18px;
-  /*background-color: black;*/
-  background-color: hsl(27, 66%, 92%);  /*Cream: hsl(27, 66%, 92%)*/
+  background-color: hsl(27, 66%, 92%);
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*margin-top: 100px;*/
-  /*margin-top: 150px;*/
-  /*border: 1px solid black;*/
 }
-
-/*.big_box {
-  display: flex;
-  flex-direction: column;
-  /*justify-content: center;*/
-/*align-items: center;*/
-/* margin-top: 100px;*/
-/*margin-top: 150px;*/
-/*border: 1px solid black;*/
-/*height: 100px;*/
-/*width: 900px;*/
-/*margin-left: 100px;*/
-/*background-color: hsl(27, 66%, 92%);*/
-/*background-color: black;*/
-/*height: 100vh;*/
-/*}*/
-
 
 /**********DEBUT headder_card**********/
 .header_card {
-  background-color: hsl(10, 79%, 65%); /*- Soft red: hsl(10, 79%, 65%)*/
-  border-radius: 8px 8px 8px 8px;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 20px 20px 20px 20px;
   color: bisque;
   height: 100px;
   width: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /*border: 1px solid #000;*/
 }
 
 .write {
-  /*border: 1px solid #fff;*/
   margin-left: 30px;
 }
 
 .write_alpha {
+  padding-bottom: 0.5rem;
   font-size: 1rem;
 }
 
@@ -203,9 +170,7 @@ body {
 }
 
 .logo {
-  /*border: 1px solid #fff;*/
   margin-right: 30px;
-  /*margin-left: 400px;*/
 }
 
 /**********FIN headder_card**********/
@@ -214,243 +179,189 @@ body {
 .body_card {
   background-color: hsl(33, 100%, 98%);
   color: black;
-  border-radius: 10px 10px 0px 0px;
-  border: 1px solid  hsl(33, 100%, 98%);
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid hsl(33, 100%, 98%);
   height: 400px;
   width: 500px;
   margin-top: 1.5rem;
+  /*border: 1px solid #000;*/
 }
 
 .spending {
   font-size: 1.5rem;
   font-weight: bold;
-  color: hsl(25, 47%, 15%); /*Dark brown: hsl(25, 47%, 15%)*/
-  /*padding-top: 2rem;*/
+  color: hsl(25, 47%, 15%);
   margin-top: 2rem;
   margin-left: 30px;
   margin-right: 30px;
-  /*border: 1px solid blueviolet;*/
 }
 
-.graphics{
+.graphics {
   display: flex;
   justify-content: space-between;
-  margin-top: 10rem;
+  align-items: end;
+  margin-top: 4rem;
   margin-left: 30px;
   margin-right: 30px;
-  border: 1px solid palevioletred;
 }
 
-.graphic_1{
-  height: 5rem;
-  width: 2.1rem;
-  background-color:  hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
+.graphic_1 {
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: hsl(10, 79%, 65%);
   border-radius: 5px 5px 5px 5px;
 }
 
-.graphic_2{
-  display: flex; 
+.graphic_2 {
+  display: flex;
   justify-content: center;
   align-items: center;
+  height: 5.5rem;
+  width: 2.5rem;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 5px 5px 5px 5px;
+
+}
+
+.graphic_3 {
+  height: 8rem;
+  width: 2.5rem;
+  background-color: hsl(186, 34%, 60%);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.graphic_4 {
   height: 5rem;
-  width: 2.1rem;
-  background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
-  border-radius: 5px 5px 5px 5px;
-
-}
-
-.graphic_3{
-  height: 5rem;
-  width: 2.1rem;
-  background-color:  hsl(186, 34%, 60%); /*- Cyan: hsl(186, 34%, 60%)*/
+  width: 2.5rem;
+  background-color: hsl(10, 79%, 65%);
   border-radius: 5px 5px 5px 5px;
 }
 
-.graphic_4{
-  height: 5rem;
-  width: 2.1rem;
-  background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
+.graphic_5 {
+  height: 3.8rem;
+  width: 2.5rem;
+  background-color: hsl(10, 79%, 65%);
   border-radius: 5px 5px 5px 5px;
 }
 
-.graphic_5{
-  height: 5rem;
-  width: 2.1rem;
-  background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
+.graphic_6 {
+  height: 7rem;
+  width: 2.5rem;
+  background-color: hsl(10, 79%, 65%);
   border-radius: 5px 5px 5px 5px;
 }
 
-.graphic_6{
-  height: 5rem;
-  width: 2.1rem;
-  background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
+.graphic_7 {
+  height: 4.5rem;
+  width: 2.5rem;
+  background-color: hsl(10, 79%, 65%);
   border-radius: 5px 5px 5px 5px;
 }
 
-.graphic_7{
-  height: 5rem;
-  width: 2.1rem;
-  background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
-  border-radius: 5px 5px 5px 5px;
-}
-
-
-.days{
-  display: flex;
-  justify-content: space-between;
-  /*align-items: center;*/
-  margin-top: 0rem;
-  margin-left: 30px;
-  margin-right: 30px;
-  border: 1px solid palevioletred;
-  color: hsl(28, 10%, 53%); /*Medium brown: hsl(28, 10%, 53%)*/
-}
-
-.mon{
-  display: flex;
-  justify-content: center;
-  height: 2rem;
-  width: 2.1rem;
-  /*background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
-  border-radius: 5px 5px 5px 5px;
-  border: 1px solid palevioletred;
-}
-
-.tue{
-  display: flex;
-  justify-content: center;
-  height: 2rem;
-  width: 2.1rem;
-  /*background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
-  border-radius: 5px 5px 5px 5px;
-  border: 1px solid palevioletred;
-}
-
-.wed{
-  display: flex;
-  justify-content: center;
-  height: 2rem;
-  width: 2.1rem;
-  /*background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
-  border-radius: 5px 5px 5px 5px;
-  border: 1px solid palevioletred;
-}
-
-.thu{
-  display: flex;
-  justify-content: center;
-  height: 2rem;
-  width: 2.1rem;
-  /*background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
-  border-radius: 5px 5px 5px 5px;
-  border: 1px solid palevioletred;
-}
-
-.fri{
-  display: flex;
-  justify-content: center;
-  height: 2rem;
-  width: 2.1rem;
-  /*background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
-  border-radius: 5px 5px 5px 5px;
-  border: 1px solid palevioletred;
-}
-
-.sat{
-  display: flex;
-  justify-content: center;
-  height: 2rem;
-  width: 2.1rem;
-  /*background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
-  border-radius: 5px 5px 5px 5px;
-  border: 1px solid palevioletred;
-}
-
-.sun{
-  display: flex;
-  justify-content: center;
-  height: 2rem;
-  width: 2.1rem;
-  /*background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
-  border-radius: 5px 5px 5px 5px;
-  border: 1px solid palevioletred;
-}
-/*
 .days {
   display: flex;
   justify-content: space-between;
+  margin-top: 0.5rem;
   margin-left: 30px;
   margin-right: 30px;
-  margin-top: 0.3rem;
-  color: hsl(28, 10%, 53%); /*Medium brown: hsl(28, 10%, 53%)*/
+  color: hsl(28, 10%, 53%);
+}
 
-  /*
-  margin-top: 10rem;
-  margin-left: 30px;
-  margin-right: 30px;
-  */
-
-  /*border: 1px solid yellowgreen;*/
-/*}*/
-
-/*.tue{
+.mon {
   display: flex;
   justify-content: center;
-  height: 2rem;
-  width: 2.1rem;
-  /*background-color: hsl(10, 79%, 65%); /*Soft red: hsl(10, 79%, 65%)*/
-  /*border-radius: 5px 5px 5px 5px;*/
-  /*border: 1px solid palevioletred;*/
-/*}*/
+  width: 2.5rem;
+}
 
+.tue {
+  display: flex;
+  justify-content: center;
+  width: 2.5rem;
+}
+
+.wed {
+  display: flex;
+  justify-content: center;
+  width: 2.5rem;
+}
+
+.thu {
+  display: flex;
+  justify-content: center;
+  width: 2.5rem;
+}
+
+.fri {
+  display: flex;
+  justify-content: center;
+  width: 2.1rem;
+}
+
+.sat {
+  display: flex;
+  justify-content: center;
+  width: 2.5rem;
+}
+
+.sun {
+  display: flex;
+  justify-content: center;
+  width: 2.5rem;
+}
 /**********FIN body_card**********/
 
 /**********DEBUT footer_card**********/
 .footer_card {
   display: flex;
   justify-content: space-between;
-
   background-color: hsl(33, 100%, 98%);
   color: black;
-  border-radius: 0px 0px 10px 10px;
-  border: 1px solid blue;
-  /* height: 370px;*/
+  border-radius: 0px 0px 20px 20px;
   width: 500px;
+  /*border: 1px solid #000;*/
 }
 
-.post{
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   margin-left: 30px;
   margin-right: 30px;
-  border: 1px solid #000;
+  margin-bottom: 30px;
 }
 
-.alph_left{
+.alph_left {
+  padding-bottom: 0.5rem;
   font-size: 1rem;
-  color: hsl(28, 10%, 53%); /*Medium brown: hsl(28, 10%, 53%)*/
+  color: hsl(28, 10%, 53%);
 }
 
-.num_left{
+.num_left {
   font-size: 3rem;
   font-weight: bold;
-  color: hsl(25, 47%, 15%); /*Dark brown: hsl(25, 47%, 15%)*/
+  color: hsl(25, 47%, 15%);
 }
 
-.most{
+.most {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
   margin-left: 30px;
   margin-right: 30px;
-  border: 1px solid #000;
+  margin-bottom: 30px;
 }
 
-.num_right{
+.num_right {
+  padding-bottom: 0.5rem;
   font-size: 1.1rem;
-  color: hsl(25, 47%, 15%); /*Dark brown: hsl(25, 47%, 15%)*/
+  color: hsl(25, 47%, 15%);
   font-weight: bold;
+  text-align: end;
 }
 
-.alph_right{
+.alph_right {
   font-size: 1rem;
-  color: hsl(28, 10%, 53%); /*Medium brown: hsl(28, 10%, 53%)*/
+  color: hsl(28, 10%, 53%);
 }
-
 
 /**********FIN footer_card**********/
