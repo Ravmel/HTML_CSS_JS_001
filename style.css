@@ -94,6 +94,14 @@ body {
   border-radius: 5px 5px 5px 5px;
 }
 
+.graphic_1:hover {
+  cursor: pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: hsl(10, 79%, 65%, 0.39);
+  border-radius: 5px 5px 5px 5px;
+}
+
 .graphic_2 {
   display: flex;
   justify-content: center;
@@ -102,7 +110,13 @@ body {
   width: 2.5rem;
   background-color: hsl(10, 79%, 65%);
   border-radius: 5px 5px 5px 5px;
-
+}
+.graphic_2:hover {
+  cursor: pointer;
+  height: 5.5rem;
+  width: 2.5rem;
+  background-color: hsl(10, 79%, 65%, 0.39);
+  border-radius: 5px 5px 5px 5px;
 }
 
 .graphic_3 {
@@ -131,7 +145,7 @@ body {
   cursor: pointer;
   height: 5rem;
   width: 2.5rem;
-  background-color: hsla(10, 79%, 65%, 0.39);
+  background-color: hsl(10, 79%, 65%, 0.39);
   border-radius: 5px 5px 5px 5px;
 }
 
@@ -142,6 +156,14 @@ body {
   border-radius: 5px 5px 5px 5px;
 }
 
+.graphic_5:hover {
+  cursor: pointer;
+  height: 3.8rem;
+  width: 2.5rem;
+  background-color: hsl(10, 79%, 65%, 0.39);
+  border-radius: 5px 5px 5px 5px;
+}
+
 .graphic_6 {
   height: 7rem;
   width: 2.5rem;
@@ -149,10 +171,26 @@ body {
   border-radius: 5px 5px 5px 5px;
 }
 
+.graphic_6:hover {
+  cursor: pointer;
+  height: 7rem;
+  width: 2.5rem;
+  background-color: hsl(10, 79%, 65%, 0.39);
+  border-radius: 5px 5px 5px 5px;
+}
+
 .graphic_7 {
   height: 4.5rem;
   width: 2.5rem;
   background-color: hsl(10, 79%, 65%);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.graphic_7:hover {
+  cursor: pointer;
+  height: 4.5rem;
+  width: 2.5rem;
+  background-color: hsla(10, 79%, 65%, 0.39);
   border-radius: 5px 5px 5px 5px;
 }
 
