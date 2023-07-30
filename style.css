@@ -1,138 +1,20 @@
 /**********DEBUT RESET**********/
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-blockquote,
-q {
-  quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
 /**********FIN RESET**********/
 
+/**********DEBUT déclaration d'une police**********/
+@font-face {
+  font-family: robot;
+  src: url(font/DMSans-VariableFont_opsz\,wght.ttf);
+}
+/**********FIN déclaration d'une police**********/
+
 body {
+  /*font-family: 'DMSans-VariableFont_opsz,wght.ttf';*/
   font-size: 18px;
   background-color: hsl(27, 66%, 92%);
   height: 100vh;
@@ -230,10 +112,26 @@ body {
   border-radius: 5px 5px 5px 5px;
 }
 
+.graphic_3:hover {
+  cursor: pointer;
+  height: 8rem;
+  width: 2.5rem;
+  background-color: hsla(186, 34%, 60%, 0.39);
+  border-radius: 5px 5px 5px 5px;
+}
+
 .graphic_4 {
   height: 5rem;
   width: 2.5rem;
   background-color: hsl(10, 79%, 65%);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.graphic_4:hover {
+  cursor: pointer;
+  height: 5rem;
+  width: 2.5rem;
+  background-color: hsla(10, 79%, 65%, 0.39);
   border-radius: 5px 5px 5px 5px;
 }
 
