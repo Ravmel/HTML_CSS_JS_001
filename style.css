@@ -1,0 +1,52 @@
+@import url('font/static/family=DM+Sans:ital,wght@0,700;1,400&display=swap');
+
+font-family: 'DM Sans',
+sans-serif;
+
+/*COLOR*/
+
+/*
+- Soft red: hsl(10, 79%, 65%)
+- Cyan: hsl(186, 34%, 60%)
+- Dark brown: hsl(25, 47%, 15%)
+- Medium brown: hsl(28, 10%, 53%)
+- Cream: hsl(27, 66%, 92%)
+- Very pale orange: hsl(33, 100%, 98%)
+*/
+
+.body {
+    background-color:    hsl(25, 47%, 15%);
+    Font size: 18px
+    background-color:   hsl(25, 47%, 15%)/*hsl(27, 66%, 92%)*/ /*hsl(33, 100%, 98%);*/
+}
+
+.big_box{
+    /*display: flex;*/
+    border: 1px solid black;
+    width: 500px;
+    height: 650px;
+
+   
+}
+
+.header_card{
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 10px 10px 10px 10px;
+    color: bisque;
+    height: 100px;
+    width: 500px;
+}
+
+.body_card{
+    border-color: bisque;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid blue;
+}
+
+.footer_card{
+    border-color: bisque;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    border: 1px solid blue;
+}
