@@ -1,3 +1,4 @@
+/**********DEBUT RESET**********/
 html,
 body,
 div,
@@ -128,20 +129,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/*COLOR*/
-
-/*
-- Soft red: hsl(10, 79%, 65%)
-- Cyan: hsl(186, 34%, 60%)
-- Dark brown: hsl(25, 47%, 15%)
-- Medium brown: hsl(28, 10%, 53%)
-- Cream: hsl(27, 66%, 92%)
-- Very pale orange: hsl(33, 100%, 98%)
-*/
+/**********FIN RESET**********/
 
 /*********
-
   <!--<style>
     .attribution {
       font-size: 11px;
@@ -152,12 +142,12 @@ table {
       color: hsl(228, 45%, 44%);
     }
   </style>-->
-
 *************/
 
 body {
+  font-size: 18px;
   /*background-color: black;*/
-  background-color: hsl(27, 66%, 92%);
+  background-color: hsl(27, 66%, 92%); /*Cream: hsl(27, 66%, 92%)*/
   /*hsl(27, 66%, 92%);*/
   height: 100vh;
 
@@ -186,6 +176,8 @@ body {
   /*height: 100vh;*/
 /*}*/
 
+
+/**********DEBUT headder_card**********/
 .header_card {
   background-color: hsl(10, 79%, 65%);
   border-radius: 8px 8px 8px 8px;
@@ -193,15 +185,34 @@ body {
   height: 100px;
   width: 500px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+.write{
+  /*border: 1px solid #fff;*/
+  margin-left: 30px;
+}
+
+.write_alpha{
+  font-size: 1rem;
+}
+
+.write_num{
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 .logo{
-  /*height: 5px;*/
-  /*width: 0px;*/
+ /*border: 1px solid #fff;*/
+  margin-right: 30px;
+/*margin-left: 400px;*/
 }
+/**********FIN headder_card**********/
 
+/**********DEBUT body_card**********/
 .body_card {
-  background-color: hsl(33, 100%, 98%);
+  background-color: hsl(33, 100%, 98%); /*Very pale orange: hsl(33, 100%, 98%)*/
   color: black;
   border-radius: 10px 10px 10px 10px;
   border: 1px solid rgb(255, 0, 221);
@@ -212,13 +223,17 @@ body {
 .days {
   border: 1px solid yellowgreen;
 }
+/**********FIN body_card**********/
 
+/**********DEBUT line**********/
 .line {
   background-color:  hsl(33, 100%, 98%);
   border: 1px solid gray;
   width: 500px;
 }
+/**********FIN line**********/
 
+/**********DEBUT footer_card**********/
 .footer_card {
   background-color:  hsl(33, 100%, 98%);
   color: black;
@@ -227,3 +242,4 @@ body {
   /* height: 370px;*/
   width: 500px;
 }
+/**********FIN footer_card**********/
