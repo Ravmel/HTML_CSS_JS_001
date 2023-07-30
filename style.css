@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@0,9..40;1,9..40&display=swap');
+
+
 /**********DEBUT RESET**********/
 *{
 margin: 0;
@@ -6,22 +9,16 @@ box-sizing: border-box;
 }
 /**********FIN RESET**********/
 
-/**********DEBUT déclaration d'une police**********/
-@font-face {
-  font-family: robot;
-  src: url(font/DMSans-VariableFont_opsz\,wght.ttf);
-}
-/**********FIN déclaration d'une police**********/
-
 body {
   /*font-family: 'DMSans-VariableFont_opsz,wght.ttf';*/
-  font-size: 18px;
+  /*font-size: 18px;*/
   background-color: hsl(27, 66%, 92%);
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'DM Sans', sans-serif;
 }
 
 /**********DEBUT headder_card**********/
